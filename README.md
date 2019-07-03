@@ -1,3 +1,7 @@
+## Modifications
+
+This project has been modified by Zed Said Studio LLC to add multi-threading support.
+
 # Generate Vector Tiles from TM2Source
 [![Docker Automated build](https://img.shields.io/docker/automated/openmaptiles/generate-vectortiles.svg?maxAge=2592000)]() [![](https://images.microbadger.com/badges/image/openmaptiles/generate-vectortiles.svg)](https://microbadger.com/images/openmaptiles/generate-vectortiles)
 
