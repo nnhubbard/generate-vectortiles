@@ -8,6 +8,8 @@ source utils.sh
 readonly LIST_FILE="$EXPORT_DIR/tiles.txt"
 readonly TILE_TIMEOUT=${TILE_TIMEOUT:-1800000}
 
+UV_THREADPOOL_SIZE=4 node
+
 function export_local_mbtiles() {
     local mbtiles_name="tiles.mbtiles"
 
